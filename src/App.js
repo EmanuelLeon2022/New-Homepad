@@ -1,7 +1,8 @@
-import Profile from './components/Profile'
-import Main from './components/Main';
-import Contact from './components/Contact';
-import About from './components/About'
+import Homepage from './components/Homepage';
+import CalendarPage from './components/CalendarPage'
+import MaintenanceRequest from './components/MaintenanceRequest'
+import Renter from './components/Renter'
+import Landlord from './components/Landlord'
 import { Routes, Route } from 'react-router-dom';
 
 
@@ -10,10 +11,12 @@ function App() {
     <div className="App">
       <header className="head">
         <Routes>
-          <Route path='/' element={<Main/>}/>
-          <Route path='/profile' element={<Profile/>}/>
-          <Route path='/contact+us' element={<Contact/>}/>
-          <Route path='/about+us' element={<About/>}/>
+          <Route path='/' element={<Homepage/>}/>
+          <Route path='/Calendar' element={<CalendarPage/>}/>
+          <Route path='/Maintenance' element={<MaintenanceRequest/>}/>
+          <Route path='/Renter' element={<Renter/>}/>
+          <Route path='/Landlord' element={<Landlord/>}/>
+          <Route/>
         </Routes>
       </header>
     </div>

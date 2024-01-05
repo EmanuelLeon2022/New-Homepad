@@ -4,69 +4,22 @@
   padding: 0;
   font-family: 'Poppins';
 }
-.dir{
-  position: fixed;
-  background-color: rgb(5, 121, 121);
-  width: 100%;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  /* border-radius: 5px; */
-}
 .feet{
   display: flex;
   justify-content: space-evenly;
 }
-@media screen and (max-width: 1875px){
-  body{
-    background-color: rgb(44, 33, 204);
-  }
-  .info{
-    width: 45%;
-    border: solid black 3.5px;
-    border-radius: 15px;
-    background-color: gray;
-    transform: translateX(5vh);
-  }
-  .profile{
-    width: 45%;
-    border: solid black 3.5px;
-    border-radius: 15px;
-    background-color: gray;
-    transform: translateX(120vh);
-    text-align: end;
-  }
-  .contact{
-    width: 45%;
-    border: solid black 3.5px;
-    border-radius: 15px;
-    background-color: gray;
-    transform: translateX(5vh);
-  }
-  .about{
-    width: 45%;
-    border: solid black 3.5px;
-    border-radius: 15px;
-    background-color: gray;
-    transform: translateX(120vh);
-  }
-  a{
-    text-decoration: none;
-    font-family: poppins;
-    font-size: 15px;
-    color: white;
-  }
-  .jobs{
-    display: flex;
-    justify-content: center;
-  }
-  .magic{
-    width: 45%;
-    border-radius: 10px;
-    border: solid white 3px;
-  }
+
+.calendarWrapper{
+  display: flex;
+  padding-top: 75px;
+  justify-content: center;
+  gap: 20px;
 }
-@media screen and (max-width: 990px){
+.tent{
+  display: flex;
+  flex-direction: column;
 }
-@media screen and (max-width: 600px){
+.plumber{
+  display: flex;
+  justify-content: center;
 }

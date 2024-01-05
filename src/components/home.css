@@ -1,0 +1,50 @@
+.home{
+    background-image: url(https://cdn.spark.app/media/housingcom/image/lighting2.gif);
+    background-size: cover;
+    padding: 250px;
+}   
+
+.main{
+ background-color: rgba(255, 255, 255, 0.401);
+border: 5px solid #524c48;
+border-radius: 25px;
+padding-left: 200px;
+padding-right: 200px;
+}
+.title{
+font-size: 20px;
+text-align: center;
+color: #db5d09;
+margin-left: 0;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      
+}
+
+.button {
+    background-color: #524c48;
+    border: 2px ;
+    border-radius: 30%;
+    color: white;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+    display:inline-block;
+  }
+  .button:hover {
+    background-color: #dadcdd75;
+    color:#524c48;
+    border:#524c48 solid 2px;
+  }
+  .li {
+    text-decoration: none;
+    padding: 20px;
+    
+  }
+  p{
+    font-size: 30px;
+    
+  }
